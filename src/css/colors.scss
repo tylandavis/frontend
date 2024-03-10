@@ -1,0 +1,69 @@
+// LIGHT //
+
+$color-light-base: rgba(250, 250, 250, 1);
+$color-light-background: rgba(255, 255, 255, 1);
+$color-light-border: rgba(234, 234, 234, 1);
+$color-light-text: rgba(20, 20, 20, 1);
+$color-light-text-hover: rgba(20, 20, 20, 0.6);
+$color-light-accent: rgba(23, 111, 214, 1);
+$color-light-accent-hover: rgba(23, 111, 214, 0.6);
+
+$shadow-light-small: 0px 2px 8px rgba(0, 0, 0, 0.05);
+$shadow-light-medium: 0px 4px 16px rgba(0, 0, 0, 0.15);
+$shadow-light-large: 0px 8px 32px rgba(0, 0, 0, 0.25);
+
+$grain-dark: url('../../public/images/grain-dark.png');
+$grain-solid-dark: url('../../public/images/grain-solid-dark.jpg');
+
+// DARK //
+
+$color-dark-base: rgba(0, 0, 0, 1);
+$color-dark-background: rgba(20, 20, 20, 1);
+$color-dark-border: rgba(40, 40, 40, 1);
+$color-dark-text: rgba(235, 235, 235, 1);
+$color-dark-text-hover: rgba(235, 235, 235, 0.6);
+$color-dark-accent: rgba(240, 134, 100, 1);
+$color-dark-accent-hover: rgba(240, 134, 100, 0.6);
+
+$shadow-dark-small: 0px 2px 8px rgba(0, 0, 0, 0.3);
+$shadow-dark-medium: 0px 4px 16px rgba(0, 0, 0, 0.4);
+$shadow-dark-large: 0px 8px 32px rgba(0, 0, 0, 0.5);
+
+$grain-light: url('../../public/images/grain-light.png');
+$grain-solid-light: url('../../public/images/grain-solid-light.jpg');
+
+// THEME //
+
+@media (prefers-color-scheme: light) {
+	:root {
+		--color-base: #{$color-light-base};
+		--color-background: #{$color-light-background};
+		--color-border: #{$color-light-border};
+		--color-text: #{$color-light-text};
+		--color-text-hover: #{$color-light-text-hover};
+		--color-accent: #{$color-light-accent};
+		--color-accent-hover: #{$color-light-accent-hover};
+		--shadow-small: #{$shadow-light-small};
+		--shadow-medium: #{$shadow-light-medium};
+		--shadow-large: #{$shadow-light-large};
+		--grain: #{$grain-light};
+		--grain-solid: #{$grain-solid-light};
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--color-base: #{$color-dark-base};
+		--color-background: #{$color-dark-background};
+		--color-border: #{$color-dark-border};
+		--color-text: #{$color-dark-text};
+		--color-text-hover: #{$color-dark-text-hover};
+		--color-accent: #{$color-dark-accent};
+		--color-accent-hover: #{$color-dark-accent-hover};
+		--shadow-small: #{$shadow-dark-small};
+		--shadow-medium: #{$shadow-dark-medium};
+		--shadow-large: #{$shadow-dark-large};
+		--grain: #{$grain-dark};
+		--grain-solid: #{$grain-solid-dark};
+	}
+}

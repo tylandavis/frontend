@@ -1,0 +1,34 @@
+// BREAKPOINTS //
+
+$breakpoint-small: 400px;
+$breakpoint-medium: 800px;
+$breakpoint-large: 1200px;
+$breakpoint-xlarge: 1600px;
+
+@mixin medium-break {
+	@media (min-width: $breakpoint-medium) {
+		@content;
+	}
+}
+@mixin large-break {
+	@media (min-width: $breakpoint-large) {
+		@content;
+	}
+}
+@mixin xlarge-break {
+	@media (min-width: $breakpoint-xlarge) {
+		@content;
+	}
+}
+
+// UNITS //
+
+$light: 0.5px;
+$regular: 1px;
+$medium: 1.5px;
+$bold: 2px;
+$heavy: 3px;
+
+@function base($n) {
+	@return $n * 0.25rem;
+}
