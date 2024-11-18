@@ -1,0 +1,16 @@
+<svg width="104" height="64" viewBox="0 0 104 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect y="24" width="16" height="16" rx="8" fill="#F1F1F1"/>
+<rect x="0.5" y="24.5" width="15" height="15" rx="7.5" stroke="white" stroke-opacity="0.1"/>
+<rect y="48" width="16" height="16" rx="8" fill="#F1F1F1"/>
+<rect x="0.5" y="48.5" width="15" height="15" rx="7.5" stroke="white" stroke-opacity="0.1"/>
+<rect x="24" width="16" height="16" rx="8" fill="#F1F1F1"/>
+<rect x="24.5" y="0.5" width="15" height="15" rx="7.5" stroke="white" stroke-opacity="0.1"/>
+<rect x="24" y="24" width="16" height="16" rx="8" fill="#F1F1F1"/>
+<rect x="24.5" y="24.5" width="15" height="15" rx="7.5" stroke="white" stroke-opacity="0.1"/>
+<rect x="64" width="16" height="16" rx="8" fill="#F1F1F1"/>
+<rect x="64.5" y="0.5" width="15" height="15" rx="7.5" stroke="white" stroke-opacity="0.1"/>
+<rect x="88" width="16" height="16" rx="8" fill="#F1F1F1"/>
+<rect x="88.5" y="0.5" width="15" height="15" rx="7.5" stroke="white" stroke-opacity="0.1"/>
+<rect x="88" y="24" width="16" height="16" rx="8" fill="#F1F1F1"/>
+<rect x="88.5" y="24.5" width="15" height="15" rx="7.5" stroke="white" stroke-opacity="0.1"/>
+</svg>

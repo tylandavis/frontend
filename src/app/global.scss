@@ -11,6 +11,11 @@ body {
 	padding: 6vh 12vw;
 }
 
+img {
+	height: 1cap;
+	width: auto;
+}
+
 a {
 	color: #82d4a8;
 	cursor: crosshair;
@@ -22,5 +27,16 @@ a {
 
 	&:hover {
 		color: #d6ec93;
+	}
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	gap: 1cap;
+	align-items: flex-start;
+
+	& > * {
+		margin: 0;
 	}
 }

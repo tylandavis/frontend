@@ -1,4 +1,7 @@
 import Link from 'next/link';
+import Image from 'next/image';
+
+import braille from './braille.svg';
 
 export default async function Page() {
 	return (
@@ -14,6 +17,12 @@ export default async function Page() {
 				<Link href='https://www.behance.net/tylandavis'>Behance</Link>.{' '}
 				<Link href='mailto:hello@tylandavis'>Email</Link>.
 			</p>
+			<Image
+				src={braille}
+				alt='TD in braille'
+				width={152}
+				height={152}
+			/>
 		</main>
 	);
 }
