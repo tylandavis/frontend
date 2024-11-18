@@ -1,6 +1,5 @@
 import type { Metadata } from 'next';
 import localFont from 'next/font/local';
-import '../css/_app.scss';
 
 export const metadata: Metadata = {
 	title: 'Tylan Davis',
@@ -8,17 +7,13 @@ export const metadata: Metadata = {
 		'Designer and software engineer based in Grand Rapids, MI, currently working at Payload.',
 };
 
-const pitchSans = localFont({
-	src: 'fonts/pitch-sans-regular.woff2',
+const matter = localFont({
+	src: './MatterRegular.woff2',
 	display: 'swap',
-	variable: '--font-pitch-sans',
+	variable: '--font-matter',
 });
 
-const signifier = localFont({
-	src: 'fonts/signifier-extralight.woff2',
-	display: 'swap',
-	variable: '--font-signifier',
-});
+import './global.scss';
 
 export default function RootLayout({
 	children,
@@ -28,11 +23,11 @@ export default function RootLayout({
 	return (
 		<html
 			lang='en'
-			className={`${pitchSans.variable} ${signifier.variable}`}
+			className={matter.variable}
 		>
 			<meta
 				name='theme-color'
-				content='var(--color-base)'
+				content='#0a0a0a'
 			/>
 			<body>{children}</body>
 		</html>
